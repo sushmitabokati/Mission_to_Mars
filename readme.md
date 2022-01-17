@@ -19,8 +19,8 @@ Create a webscraping app that utilizes various python libraries to scrape photog
 
 
 ### Challenges:
-One of the biggest challenge i faced during the process was to work arround with the mongo db and the flask. One of the challenges i faced was after installing the Mongodb I couldnot create /data/db folder. Even if i had created i was getting the permission issue. Below is the steps involved to fix it. 
-    	1	sudo mkdir -p /System/Volumes/Data/data/db (Create the data/db folder)
-	2	sudo chown -Rid -un/System/Volumes/Data/data/db (Give permissions)
-	3	mongod --dbpath=/System/Volumes/Data/data/db (Change dbpath of mongodb)
+One of the biggest challenge i faced during the process was to work arround with the mongo db and the flask. One of the challenges i faced was after installing the Mongodb I couldnot create /data/db folder. Even if i had created i was getting the permission issue. Below is the steps involved to fix it(https://stackoverflow.com/questions/58034955/read-only-file-system-when-attempting-mkdir-data-db-on-mac). 
+    	- sudo mkdir -p /System/Volumes/Data/data/db (Create the data/db folder)
+	- sudo chown -Rid -un/System/Volumes/Data/data/db (Give permissions)
+	- mongod --dbpath=/System/Volumes/Data/data/db (Change dbpath of mongodb)
 
