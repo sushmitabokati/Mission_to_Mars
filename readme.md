@@ -4,9 +4,9 @@
 Create a webscraping app that utilizes various python libraries to scrape photograph and essential information for the planet Mars. Utilize html, css and bootstrap component to make the app cohesive and compatible for various devices. 
 
 #### Tools used:
-Python libraries:  Flask, Splinter, Beautifulsoup, Pandas, Selenium
-Database: Monogdb
-Webstack: html, css
+- Python libraries:  Flask, Splinter, Beautifulsoup, Pandas, Selenium
+- Database: Monogdb
+- Webstack: html, css
 
 #### Deliveries:
 1) Scrape the dictionary list for the Mars images from the https://marshemispheres.com/. Images dictnoary list were extracted using the help of the library splinter and beautiful soup. 
